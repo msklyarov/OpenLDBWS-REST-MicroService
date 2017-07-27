@@ -6,8 +6,10 @@ Steps to run the server:
 config.js defines accessToken, soap URL, route prefix and the server port.
 
 Default routes are:
+
 http://localhost:8080/api/getArrivalBoard
 
+```
 Request: POST
 Content-Type: application/json
 Raw payload: {
@@ -15,9 +17,10 @@ Raw payload: {
     "crs":"LDS",
     "timeWindowInMins": 120
 }
-
+```
 
 http://localhost:8080/api/getServiceDetails
+```
 Request: POST
 Content-Type: application/json
 Raw payload: {
@@ -27,6 +30,8 @@ Raw payload: {
     "serviceID": "lZ2ciXjR/Lq0Z8xI4O0E3A=="
 
 }
+```
 
 You can use: Advanced REST client to test requests:
+
 https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo
